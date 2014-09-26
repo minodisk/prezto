@@ -88,6 +88,7 @@ zstyle ':prezto:module:editor' key-bindings 'emacs'
 # Auto set to 'off' on dumb terminals.
 #zstyle ':prezto:module:prompt' theme 'sorin'
 zstyle ':prezto:module:prompt' theme 'paradox'
+#zstyle ':prezto:module:prompt' theme 'powerline'
 
 #
 # Ruby

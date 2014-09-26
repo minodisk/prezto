@@ -12,3 +12,10 @@ fi
 
 # Customize to your needs...
 
+# NVM
+source ~/.nvm/nvm.sh
+nvm use 0.10.32
+
+# RVM
+source ~/.rvm/scripts/rvm
+#export PATH=/usr/local/bin:$PATH
