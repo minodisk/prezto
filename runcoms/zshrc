@@ -11,4 +11,9 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+source ~/.nvm/nvm.sh
+nvm use v0.10.32
 
+
+# added by travis gem
+[ -f /Users/minodisk/.travis/travis.sh ] && source /Users/minodisk/.travis/travis.sh
