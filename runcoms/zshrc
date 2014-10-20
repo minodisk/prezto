@@ -12,10 +12,7 @@ fi
 
 # Customize to your needs...
 
-# NVM
-source ~/.nvm/nvm.sh
-nvm use 0.10.32
+export SVN_EDITOR=vim
 
-# RVM
-source ~/.rvm/scripts/rvm
-#export PATH=/usr/local/bin:$PATH
+# .zshrcと.zprofileを二重ロードしないように
+typeset -U name_of_the_variable
